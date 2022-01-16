@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern UI/UX form</title>
+</head>
+
+<body>
+    <div class="authentication-form">
+
+        <div class="header">
+            <h1>Welcome, <span>Please Login!</span></h1>
+        </div>
+        <form id="form" method="get" accept="/">
+            <h3>LOG IN</h3>
+            <div class="label-input">
+                <label for="username">Username:<span id="error-user">Please enter your username!</span></label><br>
+                <input type="text" name="username" id="username">
+            </div>
+
+
+            <div class="label-input">
+                <label for="password">Password:<span id="error-pass">Please enter your password!</span></label><br>
+                <input type="password" name="password" id="pass">
+                <input class="check-box" type="checkbox">
+                <p>Remember me?</p>
+               
+            </div>
+             
+
+
+            <button type="submit" class="btn">LOGIN</button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
